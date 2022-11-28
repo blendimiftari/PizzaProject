@@ -1,0 +1,57 @@
+* {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+  height: 2000px;
+}
+/* HeaderMenu */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: red;
+  position: sticky;
+}
+.OrderButton {
+  background-color: whitesmoke;
+  color: red;
+  border-radius: 30px;
+  font-weight: bold;
+  width: 143px;
+  height: 42px;
+  border: none;
+  margin-left: 60px;
+}
+.logo {
+  padding: 10px;
+}
+.HamMenu {
+  color: white;
+}
+/* NavLinks */
+.nav-none {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+.nav-active {
+  width: 180px;
+  position: absolute;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  border-radius: 0px 0px 20px 0px;
+}
+.links {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 20px;
+}
