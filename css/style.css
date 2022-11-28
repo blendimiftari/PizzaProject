@@ -1,0 +1,53 @@
+
+*{
+  margin: 0;
+}
+#sP1 {
+  color: #F43127;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+
+}
+
+#sH1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: 1px;
+  font-family: "Roboto Mono", monospace;;
+}
+
+#sP2 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 25px 50px 25px 50px;
+  text-align: center;
+}
+
+#sButton {
+  background-color: #F43127;
+  color: #ffff;
+  font-size: 16px;
+  padding: 15px 30px;  
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+#firstSection {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #F2F0F1;
+  
+}
