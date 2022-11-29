@@ -1,57 +1,49 @@
-* {
-  font-family: "Roboto Mono", monospace;
-  margin: 0;
-  padding: 0;
+#sP1 {
+  color: #F43127;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+
 }
 
-body {
-  background-color: antiquewhite;
-  height: 2000px;
-}
-/* HeaderMenu */
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 80px;
-  background-color: red;
-  position: sticky;
-}
-.OrderButton {
-  background-color: whitesmoke;
-  color: red;
-  border-radius: 30px;
+#sH1 {
+  margin: 0;
+  font-size: 32px;
   font-weight: bold;
-  width: 143px;
-  height: 42px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  font-family: "Roboto Mono", monospace;;
+}
+
+#sP2 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 25px 50px 25px 50px;
+  text-align: center;
+}
+
+#sButton {
+  background-color: #F43127;
+  color: #ffff;
+  font-size: 16px;
+  padding: 15px 30px;
   border: none;
-  margin-left: 60px;
+  border-radius: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 30px;
 }
-.logo {
-  padding: 10px;
-}
-.HamMenu {
-  color: white;
-}
-/* NavLinks */
-.nav-none {
-  visibility: hidden;
-  height: 0px;
-  width: 0px;
-}
-.nav-active {
-  width: 180px;
-  position: absolute;
-  float: right;
+
+#firstSection {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  background-color: red;
-  border-radius: 0px 0px 20px 0px;
-}
-.links {
-  text-decoration: none;
-  color: whitesmoke;
-  padding: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #F2F0F1;
+
 }
